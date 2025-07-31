@@ -3,3 +3,6 @@
 -- Include lazy.nvim.
 require('config.lazy')
 
+-- Set the colorscheme.
+vim.cmd.colorscheme('ayu-mirage')
+
