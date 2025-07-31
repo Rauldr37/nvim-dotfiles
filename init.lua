@@ -1,5 +1,8 @@
 -- Neovim global configuration - Raúl Durán (rauldurangarcia2001@gmail.com).
 
+-- Include keyboard and keybinds configuration.
+require('config.keyboard')
+
 -- Include lazy.nvim.
 require('config.lazy')
 
@@ -12,9 +15,6 @@ vim.wo.relativenumber = true
 
 -- Include tabbing configuration.
 require('config.tabbing')
-
--- Include keyboard and keybinds configuration.
-require('config.keyboard')
 
 -- Include Treesitter configuration.
 require('config.treesitter')
