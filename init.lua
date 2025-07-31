@@ -10,3 +10,6 @@ vim.cmd.colorscheme('ayu-mirage')
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+-- Include tabbing configuration.
+require('config.tabbing')
+
