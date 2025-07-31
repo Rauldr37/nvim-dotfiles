@@ -13,3 +13,6 @@ vim.wo.relativenumber = true
 -- Include tabbing configuration.
 require('config.tabbing')
 
+-- Include keyboard and keybinds configuration.
+require('config.keyboard')
+
