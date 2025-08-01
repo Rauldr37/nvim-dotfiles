@@ -15,3 +15,7 @@ vim.keymap.set('n', '<leader>gpl', ':Git pull<CR>', { desc = 'Call `git pull`' }
 -- Netrw keybindings.
 vim.keymap.set('n', '<leader>ex', ':Ex<CR>', { desc = 'Open Netrw file explorer' })
 
+-- Splits keybindings.
+vim.keymap.set('n', '<leader>sh', ':vs | wincmd l<CR>:new | wincmd j<CR>:q<CR>', { desc = 'Create an empty horizontal split in the current window' })
+vim.keymap.set('n', '<leader>sv', ':new<CR>', { desc = 'Create an empty vertical split in the current window' })
+
