@@ -12,3 +12,6 @@ vim.keymap.set('n', '<leader>gds', ':Git diff --staged<CR>', { desc = 'Call `git
 vim.keymap.set('n', '<leader>gps', ':Git push<CR>', { desc = 'Call `git push`' })
 vim.keymap.set('n', '<leader>gpl', ':Git pull<CR>', { desc = 'Call `git pull`' })
 
+-- Netrw keybindings.
+vim.keymap.set('n', '<leader>ex', ':Ex<CR>', { desc = 'Open Netrw file explorer' })
+
