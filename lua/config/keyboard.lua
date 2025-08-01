@@ -1,8 +1,5 @@
 -- Neovim keyboard and keybindings configuration - Raúl Durán (rauldurangarcia2001@gmail.com).
 
--- Leader key (spacebar).
-vim.g.mapleader = " "
-
 -- Fugitive keybindings.
 vim.keymap.set('n', '<leader>gs', ':Git status<CR>', { desc = 'Call `git status`' })
 vim.keymap.set('n', '<leader>gc', ':Git commit<CR>', { desc = 'Call `git commit`' })

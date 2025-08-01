@@ -1,10 +1,13 @@
 -- Neovim global configuration - Raúl Durán (rauldurangarcia2001@gmail.com).
 
--- Include keyboard and keybinds configuration.
-require('config.keyboard')
+-- Set leader key (spacebar).
+vim.g.mapleader = " "
 
 -- Include lazy.nvim.
 require('config.lazy')
+
+-- Include keyboard and keybinds configuration.
+require('config.keyboard')
 
 -- Set the colorscheme.
 vim.cmd.colorscheme('ayu-mirage')
