@@ -10,11 +10,11 @@ vim.keymap.set('n', '<leader>gps', ':Git push<CR>', { desc = 'Call `git push`' }
 vim.keymap.set('n', '<leader>gpl', ':Git pull<CR>', { desc = 'Call `git pull`' })
 
 -- Netrw keybindings.
-vim.keymap.set('n', '<leader>ex', ':Ex<CR>', { desc = 'Open Netrw file explorer' })
+vim.keymap.set('n', '<leader>ex', vim.cmd.Ex, { desc = 'Open Netrw file explorer' })
 
 -- Splits keybindings.
 vim.keymap.set('n', '<leader>sh', ':vs | wincmd l<CR>:new | wincmd j<CR>:q<CR>', { desc = 'Create an empty horizontal split in the current window' })
-vim.keymap.set('n', '<leader>sv', ':new<CR>', { desc = 'Create an empty vertical split in the current window' })
+vim.keymap.set('n', '<leader>sv', vim.cmd.new, { desc = 'Create an empty vertical split in the current window' })
 
 -- Telescope keybindings.
 local builtin = require('telescope.builtin')
