@@ -16,7 +16,7 @@ vim.keymap.set('n', '<leader>ex', ':Ex<CR>', { desc = 'Open Netrw file explorer'
 vim.keymap.set('n', '<leader>sh', ':vs | wincmd l<CR>:new | wincmd j<CR>:q<CR>', { desc = 'Create an empty horizontal split in the current window' })
 vim.keymap.set('n', '<leader>sv', ':new<CR>', { desc = 'Create an empty vertical split in the current window' })
 
--- Telescope keybinds.
+-- Telescope keybindings.
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
