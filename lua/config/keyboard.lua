@@ -26,3 +26,5 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help ta
 -- Neovim tabs keybindings.
 vim.keymap.set('n', '<leader>tn', vim.cmd.tabnew, { desc = 'Create a new tab' })
 
+-- Neovim format keybindings.
+vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { desc = 'Format file' })
