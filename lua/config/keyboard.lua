@@ -8,6 +8,8 @@ vim.keymap.set('n', '<leader>gd', ':Git diff<CR>', { desc = 'Call `git diff` in 
 vim.keymap.set('n', '<leader>gds', ':Git diff --staged<CR>', { desc = 'Call `git diff --staged` in a new split' })
 vim.keymap.set('n', '<leader>gps', ':Git push<CR>', { desc = 'Call `git push`' })
 vim.keymap.set('n', '<leader>gpl', ':Git pull<CR>', { desc = 'Call `git pull`' })
+vim.keymap.set('n', '<leader>gr', ':Git restore ', { desc = 'Prepare the command line to call `git restore `' })
+vim.keymap.set('n', '<leader>grs', ':Git restore --staged ', { desc = 'Prepare the command line to call `git restore --staged `' })
 
 -- Netrw keybindings.
 vim.keymap.set('n', '<leader>ex', vim.cmd.Ex, { desc = 'Open Netrw file explorer' })
