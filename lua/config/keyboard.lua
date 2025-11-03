@@ -11,6 +11,7 @@ vim.keymap.set('n', '<leader>gpl', ':Git pull<CR>', { desc = 'Call `git pull`' }
 vim.keymap.set('n', '<leader>gr', ':Git restore ', { desc = 'Prepare the command line to call `git restore `' })
 vim.keymap.set('n', '<leader>grs', ':Git restore --staged ', { desc = 'Prepare the command line to call `git restore --staged `' })
 vim.keymap.set('n', '<leader>gl', ':Git log<CR>', { desc = 'Call `git log`' })
+vim.keymap.set('n', '<leader>gb', ':Git checkout ', { desc = 'Prepare the command line to call `git checkout `' })
 
 -- Netrw keybindings.
 vim.keymap.set('n', '<leader>ex', vim.cmd.Ex, { desc = 'Open Netrw file explorer' })
