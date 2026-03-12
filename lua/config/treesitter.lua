@@ -8,7 +8,7 @@ require('nvim-treesitter.install').compilers = { 'zig', 'clang', 'gcc', }
 
 -- Configure highlighting and my desired parsers.
 require('nvim-treesitter.configs').setup({
-  ensure_installed = { 'c', 'cpp', 'lua', 'vim', 'cmake', 'markdown', },
+  ensure_installed = { 'c', 'cpp', 'lua', 'vim', 'cmake', 'markdown', 'python', },
   sync_install = 'false',
   highlight = { enable = 'true' },
   indent = { enable = 'true' },
